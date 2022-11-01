@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter__num,
+.counter__title{
+    margin-bottom: 2rem;
+}
+
+.counter__num{
+    font-size: 2.5rem;
+    color: yellowgreen;
+}
+
+.counter__btn{
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: .5em;
+    padding: .2em .6em;
+    box-shadow: 0 3px 2px #0006;
+    cursor: pointer;
+}
+
+.counter__btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+
+
